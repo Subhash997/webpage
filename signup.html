@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>singup</title>
+</head>
+<style>
+    .container{
+        top:50%;
+        left:50%;
+        position:absolute;
+        transform: translate(-50%,-50%);
+    }
+    #username{
+        width: 200px;
+        padding:6px;
+        margin-bottom: 15px;
+
+    }
+    .card{
+        padding:70px 45px 42px 35px;
+        background:rgb(50,50,50);
+        border-radius: 10px;
+    
+    }
+    #button{
+        border:15px;
+        padding:10px 20px;
+        background: dodgerblue;
+        color: white;
+        margin-top: 20px;
+        border: none;
+        outline:none;
+        margin-left: 50px;
+    }
+    a{
+        color: greenyellow;
+    }
+    body {
+background: black;
+}
+
+.clock {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translateX(-50%) translateY(-50%);
+color: #17D4FE;
+font-size: 60px;
+font-family: Orbitron;
+letter-spacing: 7px;
+
+
+
+}
+    </style>
+    
+<body>
+    
+    <div class="container">
+    <form> 
+        
+    <div class="card">
+      
+        <input type="text" placeholder="username" placeholder="usernae"> <br>
+        <input type="email" placeholder="mailId" placeholder="mailId"> <br>
+        <input type="id" placeholder="mobnum" placeholder="mobnum"> <br>
+        <input type="password" password="password" placeholder="password"> <br>
+        <input type="retype-password" password="password" placeholder="retype-password"> <br>
+        <input type="button" onclick="login()" value="submit" id="button">
+           
+              
+    </div>    
+    </form>
+    
+</body>
+</html>
